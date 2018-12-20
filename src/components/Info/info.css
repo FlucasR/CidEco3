@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.bg{
+    background: linear-gradient(to bottom, rgb(76, 175 ,50), rgb(174,213, 81));
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.bg-fosco{
+    background-color: #FFFFFF22;
+}
+
+.bg-botao{
+    background-color: #FFF;
+    box-shadow: var(--shadow);
+}
+
+

@@ -1,0 +1,52 @@
+nav.navbar{
+    box-shadow: var(--shadow);
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+.withoutShadow {
+    box-shadow: 0px 0px !important;
+}
+
+.shadow {
+    box-shadow: 1px 1px 5px #000 !important;
+}
+
+.logoColor{
+    background-color: #30ac4c;
+}
+
+li:hover{
+    transition: box-shadow 0.1s !important;
+    background-color: #30ac4c !important;
+    box-shadow: 1px 1px 5px #000 !important;
+}
+
+.bg-item {
+    background-color: #207534 !important;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.bg-title{
+    background-image: linear-gradient(to right, #3AF365 , #28A745);
+}
+
+
+@media (min-width: 1000px){
+    .heightMenor {
+        height: 1vh;
+    }
+
+    .heightMenorJumbo{
+        height:15vh;
+    }
+}
+
+
+
+

@@ -1,0 +1,29 @@
+.shadow{
+    box-shadow: var(--shadow);
+}
+
+.left{
+    height: 85vh;
+}
+
+.right{
+    overflow-y: scroll;
+    height: 85vh;
+}
+
+.sombra2{
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.fonte{
+    font-size: 1.3em
+}
+
+@media (max-width: 420px){
+    .fonte{
+        font-size: 1em
+    }
+}
+

@@ -1,0 +1,37 @@
+:root{
+    --shadow:
+        0 2px 23px 0 rgba(0, 0, 0, 0.1),
+        0 2px 49px 0 rgba(0, 0, 0, 0.06);
+}
+
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('./assets/fonts/Roboto-Regular.ttf');
+  }
+  
+  * {
+    font-family: 'RobotoMono', monospace;
+  }
+
+.height {
+    height: 90vh;
+    
+}
+.heightMaior {
+    height: 100vh;
+}   
+
+.width{
+    width: 75vw;
+}
+.height-header{
+    height: 7vh;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.title{ 
+    font-size: 1.5em;
+}
